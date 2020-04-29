@@ -7,12 +7,11 @@
         Nuxt-PWA
       </h1>
       <h2 class="subtitle">
-        Nuxt-PWA App by Alif Setyakurniawan
+        Build by Alif Setyakurniawan
       </h2>
     </div>
     <Meals/>
     <Categories/>
-    <Country/>
     <p class="footer">&copy;2020 Nuxt-PWA by Alif Setyakurniawan.</p>
   </section>
 </template>
@@ -20,7 +19,6 @@
 <script>
 import AppLogo from '~/components/AppLogo.vue'
 import Navbar from '~/components/Navbar.vue'
-import Country from '~/components/Country.vue'
 import Categories from '~/components/Category.vue'
 import Meals from '~/components/Meals.vue'
 
@@ -28,7 +26,6 @@ export default {
   components: {
     AppLogo,
     Navbar,
-    Country,
     Categories,
     Meals
   }
